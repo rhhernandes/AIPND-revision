@@ -62,3 +62,5 @@ def get_input_args():
     print("Pet images dir path: ", in_args.dir)
     print("CNN architecture: ", in_args.arch)
     print("Dognames file: ", in_args.dogfile)
+
+    return in_args
