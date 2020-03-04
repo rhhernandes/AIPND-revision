@@ -42,4 +42,14 @@ def get_pet_labels(image_dir):
     """
     # Replace None with the results_dic dictionary that you created with this
     # function
-    return None
+    results_dic = {}
+    for img in listdir(image_dir):
+      if img.startswith('.'):
+        continue
+      if img in results_dic:
+        print('DUPLICATE FILES IN DIRECTORY: {}'.format(img))
+        continue
+      label = img.split('.')[0]
+      label = ' '.join(label.split('_')[:-1]).strip().lower()
+      results_dic[img] = [label]
+    return results_dic
