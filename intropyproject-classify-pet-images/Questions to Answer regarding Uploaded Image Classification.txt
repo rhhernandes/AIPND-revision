@@ -8,4 +8,4 @@ Yes.
  Yes.
 
 4. Based upon your answers for questions 1. - 3. above, select the model architecture that you feel did the best at classifying the four uploaded images. Describe why you selected that model architecture as the best on uploaded image classification.
-VGG, if I'll be running a limited number of matches. It was the one which took longest to run, but the only one which correctly classified the dogs as being dogs --both Resnet and Alexnet correctly identified the breed, but did not classify the dogs as being dogs. VGG classified the dog images as shih-tzu, which is extremely similar to the actual breed lhasa apso. With some more training, perhaps it could improve its classification. 
+For this particular case of uploaded images, Alexnet or Resnet took less time to run and correctly classified the dog breed as lhasa apso. In general, though, considering the larger dataset provided, VGG seems more accurate, while taking more time to run.  

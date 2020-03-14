@@ -72,7 +72,5 @@ pct_correct_breed: 0.0
 pct_correct_notdogs: 100.0
 
 INCORRECT Dog Breed Assignment:
-Real:                        dog   Classifier:                       shih-tzu
-Real:                        dog   Classifier:                       shih-tzu
 
-** Total Elapsed Runtime: 0:0:4
+** Total Elapsed Runtime: 0:0:3

@@ -41,11 +41,11 @@ PetLabelDog: 0  ClassLabelDog: 0
 
                     dog_01.jpg: 
 Real:                        dog   Classifier:              lhasa, lhasa apso  
-PetLabelDog: 1  ClassLabelDog: 0
+PetLabelDog: 1  ClassLabelDog: 1
 
                     dog_02.jpg: 
 Real:                        dog   Classifier:              lhasa, lhasa apso  
-PetLabelDog: 1  ClassLabelDog: 0
+PetLabelDog: 1  ClassLabelDog: 1
 
        martini_cocktail_01.jpg: 
 Real:           martini cocktail   Classifier:                         goblet  
@@ -55,11 +55,11 @@ PetLabelDog: 0  ClassLabelDog: 0
 
  ** Statistics from calculates_results_stats() function:
 N Images:  4  N Dog Images:  2  N NotDog Images:  2 
-Pct Corr dog:   0.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
 
  ** Check Statistics - calculated from this function as a check:
 N Images:  4  N Dog Images:  2  N NotDog Images:  2 
-Pct Corr dog:   0.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
 
 
 *** Results Summary for CNN Model Architecture  RESNET ***
@@ -67,14 +67,10 @@ N Images            :   4
 N Dog Images        :   2
 N Not-Dog Images    :   2
 pct_match: 25.0
-pct_correct_dogs: 0.0
+pct_correct_dogs: 100.0
 pct_correct_breed: 0.0
 pct_correct_notdogs: 100.0
 
-INCORRECT Dog/NOT Dog Assignments:
-Pet Image Label is a Dog - Classified as NOT-A-DOG:
-<generator object print_results.<locals>.<genexpr> at 0x00000180188534C8>
-Pet Image Label is a Dog - Classified as NOT-A-DOG:
-<generator object print_results.<locals>.<genexpr> at 0x00000180188534C8>
+INCORRECT Dog Breed Assignment:
 
-** Total Elapsed Runtime: 0:0:1
+** Total Elapsed Runtime: 0:0:0
